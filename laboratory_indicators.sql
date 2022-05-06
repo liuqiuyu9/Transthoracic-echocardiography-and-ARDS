@@ -1,3 +1,6 @@
+##Weight
+select * from mimiciii.weightfirstday
+
 ##Hemoglobin
 select * from mimiciii.d_labitems where label like '%hemoglobin%'
 select * from mimiciii.d_items where itemid=50811
@@ -60,3 +63,6 @@ select * from mimiciii.d_items where itemid=50912
 
 ##Troponin
 select * from mimiciii.d_labitems where label like '%Troponin T%'
+
+##Oxygen Saturation
+select * from mimiciii.d_items where itemid=50817
