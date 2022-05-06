@@ -59,9 +59,4 @@ select * from mimiciii.d_labitems where label like '%Creatinine%'
 select * from mimiciii.d_items where itemid=50912
 
 ##Troponin
-
-
-
-
-
-
+select * from mimiciii.d_labitems where label like '%Troponin T%'
